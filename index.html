@@ -18,15 +18,15 @@
 </head>
 <body>
     <div>
-        <input type="button" name="paper" id="paper" value="PAPER" onclick='play("paper")'>
-        <input type="button" name="scissors" id="scissors" value="SCISSORS" onclick='play("scissors")'>
-        <input type="button" name="rock" id="rock" value="ROCK" onclick='play("rock")'>
+        <input type="button" name="paper" id="paper" value="PAPER" onclick='play(1)'>
+        <input type="button" name="scissors" id="scissors" value="SCISSORS" onclick='play(2)'>
+        <input type="button" name="rock" id="rock" value="ROCK" onclick='play(0)'>
     </div>
-    <div id="comp-score">
-        Computer Score: <span>0</span> 
+    <div >
+        Computer Score: <span id="comp-score">0</span> 
     </div>
-    <div id="player-score">
-        Player Score: <span>0</span>
+    <div>
+        Player Score: <span id="player-score">0</span>
     </div>
     <div id="messages">Welcome to the Game! Select an option to begin!</div>
 </body>
