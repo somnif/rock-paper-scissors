@@ -4,23 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
-    <script src="script.js"></script>
-    <script src="jquery-3.7.1.min.js"></script>
-    <style>
-        div {
-            display: flex;
-            gap: 30px;
-            justify-content: space-around;
-            width: 500px;
-            margin: 50px auto;
-        }
-    </style>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div>
-        <input type="button" name="paper" id="paper" value="PAPER" onclick='play(1)'>
-        <input type="button" name="scissors" id="scissors" value="SCISSORS" onclick='play(2)'>
-        <input type="button" name="rock" id="rock" value="ROCK" onclick='play(0)'>
+        <input type="button" name="paper" id="paper" value="PAPER" >
+        <input type="button" name="scissors" id="scissors" value="SCISSORS">
+        <input type="button" name="rock" id="rock" value="ROCK">
     </div>
     <div >
         Computer Score: <span id="comp-score">0</span> 

@@ -1,0 +1,7 @@
+div {
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    width: 500px;
+    margin: 50px auto;
+}
